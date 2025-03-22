@@ -1,0 +1,20 @@
+[project]
+name = "AI_Powered_Resume_Score_Checker"
+version = "0.1.0"
+description = "The ATS Resume Score Checker AI evaluates a resume against a given job description by analyzing keyword relevance, formatting compliance, and section structure to determine its ATS compatibility score. It processes text from resumes and job descriptions, compares key elements, and provides actionable improvement suggestions. The project is developed using Python, with Conda for environment management and Poetry for dependency handling to ensure a streamlined and reproducible development setup."
+authors = [
+    {name = "Karthika Krishna M"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)",
+    "pymupdf (>=1.25.4,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

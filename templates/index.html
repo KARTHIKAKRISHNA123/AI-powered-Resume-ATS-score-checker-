@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='../static/style.css')}}">
+</head>
+<body>
+    <h1>Resume Score</h1>
+    <form action="/" method="post"enctype="multipart/form-data">
+        <input type="file" name="resume" accept="application/pdf" required><br>
+        <textarea name="job_desc" rows="15" cols="50" placeholder="Enter job description here" required></textarea><br>
+        <button type="submit">Check ATS Score</button>
+    </form>
+    {%if score is not none %}
+        <h3 id="scoretext">Match Score: {{ score }}%</h3>
+    {%endif%}
+
+    <script>
+        let le = document.getElementById('Refreshbtn')
+        le.addEventListener('click', function(){
+            document.querySelector("form").reset();
+            let st = document.getElementById("scoretext");
+            if (st) {
+                st.style.display = "none";
+            }
+        })
+    </script>
+</body>
+</html>

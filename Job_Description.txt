@@ -1,0 +1,25 @@
+Job Title: Software Engineer - Python & Flask
+Location: Remote
+Job Type: Full-Time
+
+Job Description:
+We are looking for a Software Engineer with expertise in Python, Flask, and API development.
+The ideal candidate will design, develop, and maintain scalable web applications while collaborating with cross-functional teams.
+
+Key Responsibilities:
+- Develop and maintain RESTful APIs using Flask/Django.
+- Optimize database queries using PostgreSQL and MongoDB.
+- Work with CI/CD pipelines (Jenkins, Docker) for automated deployment.
+- Collaborate with front-end developers to integrate UI components with backend logic.
+- Implement unit testing and ensure high code quality.
+
+Required Skills:
+- Proficiency in Python, Flask, Django.
+- Experience with SQL and NoSQL databases (PostgreSQL, MongoDB).
+- Familiarity with Docker, AWS, and Git.
+- Strong problem-solving skills and ability to work in a fast-paced environment.
+
+Preferred Qualifications:
+- 2+ years of experience in web application development.
+- Experience in Machine Learning and AI-powered applications.
+- Strong understanding of ATS systems and HRTech applications.
